@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "安心记账模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "安心记账"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "安心记账"
+    }
+  ]
+}
