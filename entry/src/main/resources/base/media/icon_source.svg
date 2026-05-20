@@ -1,0 +1,38 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="168" y1="112" x2="856" y2="912" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36B7FF"/>
+      <stop offset="0.52" stop-color="#1677F2"/>
+      <stop offset="1" stop-color="#0858D8"/>
+    </linearGradient>
+    <linearGradient id="book" x1="313" y1="276" x2="740" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DFF0FF"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="218" y1="198" x2="462" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE98A"/>
+      <stop offset="1" stop-color="#F7B928"/>
+    </linearGradient>
+    <filter id="shadow" x="130" y="160" width="780" height="780" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="36" flood-color="#073A91" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="220" fill="url(#bg)"/>
+  <circle cx="816" cy="190" r="94" fill="#FFFFFF" fill-opacity="0.14"/>
+  <circle cx="196" cy="794" r="138" fill="#003EAA" fill-opacity="0.14"/>
+  <g filter="url(#shadow)">
+    <path d="M360 270H682C738.333 270 784 315.667 784 372V730C784 753.196 765.196 772 742 772H360C293.726 772 240 718.274 240 652V390C240 323.726 293.726 270 360 270Z" fill="url(#book)"/>
+    <path d="M360 270H690C742 270 784 312 784 364V400H366C326.235 400 294 367.765 294 328V328C294 295.967 319.967 270 352 270H360Z" fill="#F6FBFF"/>
+    <path d="M344 404H784V730C784 753.196 765.196 772 742 772H344C286.562 772 240 725.438 240 668V508C240 450.562 286.562 404 344 404Z" fill="#FFFFFF" fill-opacity="0.94"/>
+    <path d="M352 508H640" stroke="#B8D8F7" stroke-width="34" stroke-linecap="round"/>
+    <path d="M352 606H558" stroke="#B8D8F7" stroke-width="34" stroke-linecap="round"/>
+    <path d="M674 552L720 598L812 498" stroke="#18C884" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="306" cy="296" r="112" fill="url(#coin)"/>
+    <circle cx="306" cy="296" r="76" fill="#FFF2A8"/>
+    <path d="M306 246V346" stroke="#B27600" stroke-width="28" stroke-linecap="round"/>
+    <path d="M266 286H346" stroke="#B27600" stroke-width="28" stroke-linecap="round"/>
+  </g>
+  <path d="M208 812C290 866 382 894 512 894C642 894 738 861 818 806" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="28" stroke-linecap="round"/>
+</svg>
