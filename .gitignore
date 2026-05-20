@@ -1,0 +1,15 @@
+﻿/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+/.tmp_update_doc_toc.py
+/tools/competition_pdf_text.txt
+/screenshots
